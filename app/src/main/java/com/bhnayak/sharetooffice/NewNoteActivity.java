@@ -90,7 +90,9 @@ public class NewNoteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.content_new_note);
+
         sharedImageView = (ImageView) findViewById(R.id.shared_imageview);
         sharedTextView = (TextView) findViewById(R.id.shared_textview);
         titleEditText = (EditText) findViewById(R.id.title_editText);
@@ -101,7 +103,6 @@ public class NewNoteActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         //
         configureAndAcquireTokenForOD();
 
@@ -113,7 +114,7 @@ public class NewNoteActivity extends AppCompatActivity {
         mAuthenticationAdapter = new MSAAuthAndroidAdapter(this.getApplication()) {
             @Override
             public String getClientId() {
-                return MainActivity.CLIENT_ID;
+                return CLIENT_ID;
             }
 
             @Override
