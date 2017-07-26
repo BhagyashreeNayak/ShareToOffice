@@ -5,4 +5,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="title_name">TITLE</string>
+    <string name="hashtag_name">#tag</string>
+    <string name="savebutton_name">Save</string>
+    <string name="sharedImage_description">Image to share</string>
 </resources>

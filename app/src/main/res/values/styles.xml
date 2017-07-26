@@ -25,4 +25,15 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
+
+    <style name="share_dialog_title" parent="android:Widget.TextView">
+        <item name="android:background">#dd4c4f</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">9dp</item>
+    </style>
+
+    <style name="share_dialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/share_dialog_title</item>
+    </style>
 </resources>

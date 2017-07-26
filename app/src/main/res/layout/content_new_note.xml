@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:hint="TITLE"
+        android:hint="@string/title_name"
         android:inputType="text"/>
 
     <TextView
@@ -26,6 +26,7 @@
 
     <ImageView
         android:id="@+id/shared_imageview"
+        android:contentDescription="@string/sharedImage_description"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -38,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:hint="Label"
+        android:hint="@string/hashtag_name"
         android:inputType="text"/>
 
     <Button
@@ -48,7 +49,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:icon="@drawable/ic_menu_send"
-        android:text="Save" />
+        android:text="@string/savebutton_name" />
 
 </LinearLayout>
 
