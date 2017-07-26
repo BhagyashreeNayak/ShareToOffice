@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/title_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="TITLE"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/shared_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/shared_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/label_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Label"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:icon="@drawable/ic_menu_send"
+        android:text="Save" />
+
+</LinearLayout>
+
