@@ -14,7 +14,8 @@
 
         <activity
             android:name=".NewNoteActivity"
-            android:label="@string/app_name"
+            android:label="@string/new_note_name"
+            android:icon="@drawable/office"
             android:theme="@style/share_dialog">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />

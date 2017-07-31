@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:hint="@string/title_name"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <TextView
         android:id="@+id/shared_textview"
@@ -22,7 +22,7 @@
         android:scrollbars="vertical"
         android:layout_marginTop="10dp"
         android:padding="5dp"
-        android:visibility="gone"/>
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/shared_imageview"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:hint="@string/hashtag_name"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <Button
         android:id="@+id/save_button"
@@ -48,8 +48,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:icon="@drawable/ic_menu_send"
         android:text="@string/savebutton_name" />
 
 </LinearLayout>
-

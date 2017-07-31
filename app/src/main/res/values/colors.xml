@@ -3,4 +3,7 @@
     <color name="colorPrimary">#fa0060</color>
     <color name="colorPrimaryDark">#be3262</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="shareDialogTitleBackground">#dd4c4f</color>
+    <color name="shareDialogTitleText">#ffffff</color>
 </resources>

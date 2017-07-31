@@ -27,9 +27,9 @@
     </style>
 
     <style name="share_dialog_title" parent="android:Widget.TextView">
-        <item name="android:background">#dd4c4f</item>
+        <item name="android:background">@color/shareDialogTitleBackground</item>
         <item name="android:textSize">21sp</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">@color/shareDialogTitleText</item>
         <item name="android:padding">9dp</item>
     </style>
 
